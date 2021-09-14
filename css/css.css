@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: #202124;
+}
+.formulario{
+    background-color: #202124;
+    border: 1px solid #3c4043;
+    border-radius: 5px;
+    width: 600px;
+    height: auto;
+    margin: auto;
+    margin-top: 180px;
+    padding: 80px 50px;
+
+    display: flex;
+    justify-content: space-around;
+
+}
+.signo{
+    width: 50px;
+
+    font-size: 40px;
+    text-align: center;
+    color: #787878;
+    background-color: #202124;
+    border: none;
+    cursor: pointer;
+}
+.caja_kilogramos, .caja_libras{
+    width: auto;
+    height: 80px;
+
+    display: flex;
+    flex-direction: column;
+}
+.caja_kilogramos_input, .caja_libras input{
+    width: 200px;
+    height: 45px;
+
+    color: #ffff;
+    font-size: 28px;
+    text-align: center;
+
+    border: 1px solid #3c4043;
+    border-radius: 2px;
+    background-color: #202124;
+}
+.caja_kilogramos_input{
+    padding-top: 5px;
+}
+.caja_kilogramos label, .caja_libras label{
+    width: 200px;
+    height: 30px;
+    padding: 4px 10px;
+
+    background: 100% no-repeat #303134;
+    color: #bdc1c6;
+    font-size: 15px;
+    border: 1px solid #3c4043;
+    border-radius: 2px;
+}
